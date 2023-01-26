@@ -1,0 +1,10 @@
+.main{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.start,.stop{
+    padding: 10px 30px;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 5px;
+}

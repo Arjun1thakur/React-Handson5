@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    /* height: 60vh; */
+    /* background-image: url(https://images.hdqwalls.com/wallpapers/hill-station-road-ji.jpg); */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+.grid_1{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+}
+#id_0{
+    grid-row: 1/-1;
+    grid-column: 1/3;
+}
+#id_1 h1,#id_2 h1{
+    font-size:large;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main0{
+    background-color: rgba(250, 250, 250, 0.3);
+    /* padding: 30px; */
+    box-shadow: 1px 1px 5px rgb(230, 230, 230);
+    border-radius: 10px;
+}
+.try{
+    width: 80%;
+    margin: 50px auto;
+}
+.try .h1{
+    position: relative;
+}
+.try .h1::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 5px;
+    width: 80px;
+    height: 2px;
+    border-radius: 50% 0px  0px 50%;
+    background-color: red;
+    color: red;
+}
+
+.main0{
+    width: 30%;
+    margin: 20px;
+}
+.content0{
+    padding: 10px 20px;
+}
+.content0 p{
+    margin: 10px 0px 30px;
+}
